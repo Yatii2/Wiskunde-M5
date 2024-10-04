@@ -5,7 +5,7 @@ using UnityEngine;
 public class DraggablePoint : MonoBehaviour
 {
     bool isDrag = false;
-    public Color color;
+    public Color color = Color.white;
     SpriteRenderer spriteRenderer;
 
     // Start is called before the first frame update

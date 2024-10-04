@@ -5,7 +5,7 @@ using UnityEngine;
 public class DrawTheLine : MonoBehaviour
 {
     [SerializeField] LineRenderer lineRenderer;
-    LinearFunction f = new LinearFunction();
+    LinearFunction f = new LinearFunction(1,0);
     [SerializeField] DraggablePoint A;
 
     void Start()
